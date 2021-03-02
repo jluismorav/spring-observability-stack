@@ -1,2 +1,2 @@
 # spring-observability-stack
-Spring + Grafana + Telegraf + InfluxDB template
+Spring + Grafana + InfluxDB template
