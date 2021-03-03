@@ -12,11 +12,9 @@ public class MainController {
 	@Autowired
 	public MyComponent component;
 
-	@GetMapping("/")
-	@Timed(extraTags = { "mytagname", "mytagvalue" })
+	@GetMapping("/index")	
 	public String index() {
 		component.countedCall();
-		System.out.println("Hello World");
 		return "Hello World";
 	}
 
